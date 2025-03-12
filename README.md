@@ -1,1 +1,2 @@
 # AgingRiskPipeline
+This study performed within the Lifelines cohort provides valuable insights into the interplay between lifetime factors and the onset of six age-related disease including cancer, diabetes, COPD, heart failure, and stroke. It also offers an approach for identifying individuals at high-risk and assessing their relative risk for developing these diseases. Our findings enhance the understanding of disease-associated risk factors and underscore the importance of early intervention for high-risk individuals.
