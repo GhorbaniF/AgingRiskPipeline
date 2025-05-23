@@ -69,7 +69,7 @@ df_clean <- df[, cols_without_na]
 ###########Section 2: dimensionality reduction###################################################################
 ##################################################################################################################
 
-##########defining the function InDaPCA () to later perform PCA on a given raw dataset (later you call the function and provide a dataset as input for it to perform)
+##########defining the function InDaPCA () to later perform PCA on a given raw dataset 
 InDaPCA<-function(RAW){
   #scaling
   X <- scale(RAW, center = T, scale = T)
@@ -365,8 +365,7 @@ colnames (pcor_matrix_excluding_pcs_pvalues) <- colnames(df.all)[1:(n - m)]
 
 ##iterating over PCA components and updating the partial correlation matrices to include the relationships between each PCA component and variables
 
-for (i in 1:length(pca_components)) {    #  ?????????????????????
-  
+for (i in 1:length(pca_components)) {   
   
 # Clean df.all at the beginning of each iteration
 df_all_estimate <- data.frame()
